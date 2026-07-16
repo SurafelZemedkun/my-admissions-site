@@ -21,4 +21,4 @@ export default function HomePage() {
       <Footer />
     </>
   );
-} Fix component import paths
+} 
