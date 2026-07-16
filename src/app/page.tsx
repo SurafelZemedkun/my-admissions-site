@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import HeroSection from '@/app/components/HeroSection';
-import ServicesSection from '@/app/components/ServicesSection';
-import SuccessStoriesSection from '@/app/components/SuccessStoriesSection';
-import WhyUsSection from '@/app/components/WhyUsSection';
-import BookingSection from '@/app/components/BookingSection';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import HeroSection from './components/HeroSection';
+import ServicesSection from './components/ServicesSection';
+import SuccessStoriesSection from './app/components/SuccessStoriesSection';
+import WhyUsSection from './app/components/WhyUsSection';
+import BookingSection from './app/components/BookingSection';
 
 export default function HomePage() {
   return (
@@ -21,4 +21,4 @@ export default function HomePage() {
       <Footer />
     </>
   );
-}
+} Fix component import paths
