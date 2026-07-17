@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useEffect, useRef } from 'react';
-import AppImage from '@/components/ui/AppImage';
-import Icon from '@/components/ui/AppIcon';
+import AppImage from '../../components/ui/AppImage';
+import Icon from '../../components/ui/AppIcon';
 
 export default function HeroSection() {
   const line1Ref = useRef<HTMLSpanElement>(null);
