@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import Icon from '@/components/ui/AppIcon';
+import Icon from './../components/ui/AppIcon';
 
 const steps = [
   {
