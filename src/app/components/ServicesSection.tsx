@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useRef } from 'react';
-import Icon from ../../components/ui/AppIcon';
+import Icon from '../../components/ui/AppIcon';
 
 /*
   BENTO GRID AUDIT — 4 cards on 3-col grid
