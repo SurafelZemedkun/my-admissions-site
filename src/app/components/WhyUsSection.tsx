@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useEffect, useRef } from 'react';
-import Icon from '@/components/ui/AppIcon';
-import AppImage from '@/components/ui/AppImage';
+import Icon from '../../components/ui/AppIcon';
+import AppImage from '../../components/ui/AppImage';
 
 const stats = [
 { value: '500+', label: 'Students Placed', sub: 'Across 50+ countries' },
